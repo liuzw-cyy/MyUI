@@ -4,9 +4,9 @@ module.exports = {
   description: '基于Vue的个人中国风组件库',
   base: '/myui/',
   port: '8080',
-  // chainWebpack: config => {
-  //   config.resolve.alias.set('core-js/library/fn', 'core-js/features');
-  // },
+  chainWebpack: config => {
+    config.resolve.alias.set('core-js/library/fn', 'core-js/features');
+  },
   markdown: {
     lineNumbers: true
   },
@@ -28,7 +28,7 @@ module.exports = {
       }
     ],
     sidebar: {
-      '/comps/': [
+      '/components/': [
         {
           title: 'Basic基础组件',
           collapsable: false,
@@ -53,7 +53,9 @@ module.exports = {
         {
           title: 'Table表格',
           collapsable: false,
-          children: ['table/table']
+          children: [
+            'table/table'
+          ]
         }
       ],
       '/guide/': [
