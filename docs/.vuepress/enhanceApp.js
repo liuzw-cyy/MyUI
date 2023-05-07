@@ -1,4 +1,4 @@
-import Vue from 'vue';
+
 import myui from '../../src/index.js';
 
 export default ({
@@ -6,9 +6,5 @@ export default ({
   options,
   router
 }) => {
-  Vue.mixin({
-    mounted() {
-      Vue.use(myui);
-    },
-  });
+  Vue.use(myui);
 };

@@ -4,9 +4,9 @@ module.exports = {
   description: '基于Vue的个人中国风组件库',
   base: '/myui/',
   port: '8080',
-  chainWebpack: config => {
-    config.resolve.alias.set('core-js/library/fn', 'core-js/features');
-  },
+  // chainWebpack: config => {
+  //   config.resolve.alias.set('core-js/library/fn', 'core-js/features');
+  // },
   markdown: {
     lineNumbers: true
   },
@@ -40,20 +40,14 @@ module.exports = {
           title: 'Navigation导航',
           collapsable: false,
           children: [
-            'navigation/nav',
-            'navigation/subnav',
-            'navigation/navItem',
+
           ]
         },
         {
           title: 'Form表单',
           collapsable: false,
           children: [
-            'form/form',
-            'form/input',
-            'form/radio',
-            'form/checkbox',
-            'form/select'
+
           ]
         },
         {
