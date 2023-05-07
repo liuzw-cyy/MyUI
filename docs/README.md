@@ -1,12 +1,12 @@
 ---
 home: true
 heroImage: /images/logo.png
-heroText: MyUI
+heroText:
 actionText: 快速上手 →
 actionLink: /guide/guide
 features:
   - title: 风格 Style
-    details: 由liuzw为您精心打造的中国风组件库
+    details: 精心打造的中国风组件库
   - title: 反馈 Feedback
     details: 通过界面样式和交互动效让用户可以清晰的感知自己的操作
   - title: 效率 Efficiency

@@ -1,6 +1,6 @@
 module.exports = {
   theme: '',
-  title: 'MyUI',
+  title: '',
   description: '基于Vue的个人中国风组件库',
   base: '/myui/',
   port: '8080',
