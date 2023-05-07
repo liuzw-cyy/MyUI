@@ -5,11 +5,11 @@ heroText: MyUI
 actionText: 快速上手 →
 actionLink: /guide/guide
 features:
-  - title: 中国风 Chinoiserie
+  - title: 风格 Style
     details: 由liuzw为您精心打造的中国风组件库
   - title: 反馈 Feedback
     details: 通过界面样式和交互动效让用户可以清晰的感知自己的操作
   - title: 效率 Efficiency
     details: 界面简单直白，让用户快速识别而非回忆，减少用户记忆负担。
-footer: byliuzw
+footer: by liuzw
 ---

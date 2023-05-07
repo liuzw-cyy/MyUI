@@ -44,14 +44,14 @@ module.exports = {
           ]
         },
         {
-          title: 'Form表单',
+          title: 'Form表单组件',
           collapsable: false,
           children: [
 
           ]
         },
         {
-          title: 'Table表格',
+          title: 'Table表格组件',
           collapsable: false,
           children: [
             'table/table'
