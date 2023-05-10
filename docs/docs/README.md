@@ -1,12 +1,7 @@
 ---
 home: true
-<<<<<<< HEAD
-heroImage: /images/logo.png
-heroText: MyUI
-=======
 heroImage: /images/logo.jpg
-heroText:
->>>>>>> parent of e5c1aad... Revert "docs: 修改主页图片"
+heroText: MyUI
 actionText: 快速上手 →
 actionLink: /guide/guide
 features:

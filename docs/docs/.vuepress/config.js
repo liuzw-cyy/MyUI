@@ -1,13 +1,8 @@
 module.exports = {
-<<<<<<< HEAD:docs/docs/.vuepress/config.js
   title: '组件库文档',
   description: '基于Vue2.x的个人中国风组件库',
-=======
-  theme: '',
   title: 'MyUI',
   description: '基于Vue的个人中国风组件库',
-  base: '/myui/',
->>>>>>> parent of 0e03aee... docs: 修改主页图片及简介:docs/.vuepress/config.js
   port: '8080',
   chainWebpack: config => {
     config.resolve.alias.set('core-js/library/fn', 'core-js/features');
