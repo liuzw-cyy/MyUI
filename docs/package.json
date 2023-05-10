@@ -8,7 +8,7 @@
     "vuepress-plugin-demo-container": "^0.2.0"
   },
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
   }
 }
