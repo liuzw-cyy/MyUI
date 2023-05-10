@@ -1,8 +1,6 @@
 module.exports = {
   title: '组件库文档',
   description: '基于Vue2.x的个人中国风组件库',
-  title: 'MyUI',
-  description: '基于Vue的个人中国风组件库',
   port: '8080',
   chainWebpack: config => {
     config.resolve.alias.set('core-js/library/fn', 'core-js/features');
