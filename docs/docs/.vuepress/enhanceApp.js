@@ -1,5 +1,5 @@
 
-import myui from '../../src/index.js';
+import myui from '../../../src/index.js';
 
 export default ({
   Vue,

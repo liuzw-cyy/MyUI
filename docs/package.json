@@ -1,11 +1,14 @@
 {
-  "name": "myui",
+  "name": "test",
   "version": "1.0.0",
-  "description": "基于Vue的个人UI组件库",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.9.9",
+    "vuepress-plugin-demo-container": "^0.2.0"
   },
-  "author": "liuzw",
-  "license": "ISC"
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
 }

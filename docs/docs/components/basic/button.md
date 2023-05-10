@@ -1,12 +1,8 @@
-## 使用
+### Button 组件
 
-button 组件
-
+<my-button />
 ::: demo
 ```html
 <my-button />
 ```
 :::
-
-
-

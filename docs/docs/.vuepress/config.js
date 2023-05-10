@@ -1,8 +1,6 @@
 module.exports = {
-  theme: '',
   title: '',
-  description: '基于Vue的个人中国风组件库',
-  base: '/myui/',
+  description: '基于Vue2.x的个人中国风组件库',
   port: '8080',
   chainWebpack: config => {
     config.resolve.alias.set('core-js/library/fn', 'core-js/features');
@@ -10,9 +8,13 @@ module.exports = {
   markdown: {
     lineNumbers: true
   },
-  plugins: ['demo-container'],
+  plugins: [
+    'demo-container'
+  ],
   themeConfig: {
+    logo: '/images/logo.jpg',
     sidebarDepth: 1,
+    lastUpdated: 'Last Updated',
     nav: [
       {
         text: '首页',
@@ -54,7 +56,7 @@ module.exports = {
           title: 'Table表格组件',
           collapsable: false,
           children: [
-            'table/table'
+
           ]
         }
       ],
