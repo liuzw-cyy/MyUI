@@ -1,5 +1,5 @@
 module.exports = {
-  title: '',
+  title: '组件库文档',
   description: '基于Vue2.x的个人中国风组件库',
   port: '8080',
   chainWebpack: config => {
@@ -70,6 +70,10 @@ module.exports = {
           ]
         },
       ]
-    }
+    },
+    repo: 'https://github.com/liuzw-cyy/MyUI',
+    // 自定义仓库链接文字。默认从 `themeConfig.repo` 中自动推断为
+    // "GitHub"/"GitLab"/"Bitbucket" 其中之一，或是 "Source"。
+    repoLabel: 'Github',
   },
 };
