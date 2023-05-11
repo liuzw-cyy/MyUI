@@ -3,9 +3,9 @@ module.exports = {
   base: '/MyUI/',
   description: '基于Vue2.x的个人中国风组件库',
   port: 8080,
-  // markdown: {
-  //   lineNumbers: true
-  // },
+  markdown: {
+    lineNumbers: true
+  },
   plugins: [
     'demo-container'
   ],
