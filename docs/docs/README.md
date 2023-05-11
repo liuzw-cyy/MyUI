@@ -11,5 +11,5 @@ features:
     details: 通过界面样式和交互动效让用户可以清晰的感知自己的操作，通过页面元素的变化清晰地展现当前状态。
   - title: 效率 Efficiency
     details: 界面简单直白，让用户快速识别而非回忆，减少用户记忆负担。
-footer: by liuzw
+footer: MIT Licensed | Copyright © 2019-present ArronKler
 ---

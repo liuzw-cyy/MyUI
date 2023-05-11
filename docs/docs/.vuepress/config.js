@@ -1,13 +1,11 @@
 module.exports = {
   title: '组件库文档',
+  base: '/MyUI/',
   description: '基于Vue2.x的个人中国风组件库',
-  port: '8080',
-  chainWebpack: config => {
-    config.resolve.alias.set('core-js/library/fn', 'core-js/features');
-  },
-  markdown: {
-    lineNumbers: true
-  },
+  port: 8080,
+  // markdown: {
+  //   lineNumbers: true
+  // },
   plugins: [
     'demo-container'
   ],
