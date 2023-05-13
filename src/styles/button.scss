@@ -1,0 +1,244 @@
+@import './common/color.scss';
+@import './icon.scss';
+//常规字体库
+.my-button {
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+  font-family: "jiangxizhuokai";
+  line-height: 1;
+  cursor: pointer;
+  background-color: $normal-color;
+  border: 1px solid #dcdfe6;
+  white-space: nowrap;
+  //字体颜色
+  color: $font-black-color;
+  box-sizing: border-box;
+  outline: none;
+  transition: 0.1s;
+  font-weight: 500;
+
+  // 禁止文字被选中
+  user-select: none;
+
+  padding: 12px 20px;
+  font-size: 14px;
+  border-radius: 4px;
+  &:hover,
+  &:focus {
+    color: $normal-active-color;
+    border-color: $warning-color;
+    background-color: #ecf5ff;
+  }
+}
+.my-button--default {
+  display: inline-block;
+  position: relative;
+  font-family: "jiangxizhuokai";
+  line-height: 1;
+  cursor: pointer;
+  background-color: $normal-color;
+  border: 1px solid #dcdfe6;
+  white-space: nowrap;
+  //字体颜色
+  color: $font-black-color;
+  box-sizing: border-box;
+  outline: none;
+  transition: 0.1s;
+  font-weight: 500;
+
+  // 禁止文字被选中
+  user-select: none;
+  padding: 12px 20px;
+  font-size: 14px;
+  border-radius: 4px;
+  &:hover,
+  &:focus {
+    color: $normal-active-color;
+    border-color: $warning-color;
+    background-color: #ecf5ff;
+  }
+}
+.my-button--primarygold {
+  color: $font-gold-color;
+  background-color: $primary-color;
+  border-color: $primary-color;
+  //   box-shadow: inset 3px 6px 10px #337ecc, inset -3px -7px 10px #4dbeff;
+  &:hover,
+  &:focus {
+    background: $normal-active-color;
+    background-color: $normal-active-color;
+    color: #fff;
+  }
+}
+.my-button--primarywhite {
+  color: #fff;
+  background-color: $primary-color;
+  border-color: $primary-color;
+  //   box-shadow: inset 3px 6px 10px #337ecc, inset -3px -7px 10px #4dbeff;
+  &:hover,
+  &:focus {
+    background: $normal-active-color;
+    background-color: $normal-active-color;
+    color: #fff;
+  }
+}
+.my-button--successgold {
+  color: $font-gold-color;
+  background-color: $success-color;
+  border-color: $success-color;
+  &:hover,
+  &:focus {
+    background: $success-active-color;
+    background-color: $success-active-color;
+    color: #fff;
+  }
+}
+
+.my-button--successwhite {
+  color: #fff;
+  background-color: $success-color;
+  border-color: $success-color;
+  &:hover,
+  &:focus {
+    background: $success-active-color;
+    background-color: $success-active-color;
+    color: #fff;
+  }
+}
+
+.my-button--dangerwhite {
+  color: #fff;
+  background-color: $danger-color;
+  border-color: $danger-color;
+  &:hover,
+  &:focus {
+    background: $danger-active-color;
+    background-color: $danger-active-color;
+    color: #fff;
+  }
+}
+.my-button--dangergold {
+  color: $font-gold-color;
+  background-color: $danger-color;
+  border-color: $danger-color;
+  &:hover,
+  &:focus {
+    background: $danger-active-color;
+    background-color: $danger-active-color;
+    color: #fff;
+  }
+}
+
+// round
+.my-button.round {
+  border-radius: 20px;
+  padding: 12px 23px;
+}
+
+//拟态
+.my-button.mimicry {
+  box-shadow: inset 3px 6px 10px #ccc, inset -3px -7px 10px #fff;
+}
+.my-button--primary.mimicry {
+  box-shadow: inset 3px 6px 10px #337ecc, inset -3px -7px 10px #4dbeff;
+}
+.my-button--info.mimicry {
+  box-shadow: inset 3px 6px 10px #73767a, inset -3px -7px 10px #adb0b8;
+}
+.my-button--success.mimicry {
+  box-shadow: inset 3px 6px 10px #6aa54e, inset -3px -7px 10px #a0f774;
+}
+.my-button--warning.mimicry {
+  box-shadow: inset 3px 6px 10px #bc914f, inset -3px -7px 10px #ffd977;
+}
+.my-button--danger.mimicry {
+  box-shadow: inset 3px 6px 10px #c45656, inset -3px -7px 10px #ff8282;
+}
+
+//圆形按钮
+.my-button.circle {
+  font-size: 10px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  padding: 3px;
+}
+// //切角按钮cut
+// .my-button.cut {
+//   background: linear-gradient(135deg, transparent 10px, #ff1493 0) top left,
+//     linear-gradient(-135deg, transparent 10px, #ff1493 0) top right,
+//     linear-gradient(-45deg, transparent 10px, #ff1493 0) bottom right,
+//     linear-gradient(45deg, transparent 10px, #ff1493 0) bottom left;
+//   background-size: 50% 50%;
+//   background-repeat: no-repeat;
+// }
+
+// 禁用
+.my-button.disabled .mask {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(148, 146, 146, 0.39);
+  left: 0;
+  top: 0;
+  box-shadow: 2px 2px 3px rgba(216, 213, 213, 0.3);
+  border-radius: 4px;
+  z-index: 100;
+}
+.my-button.round .mask {
+  border-radius: 20px;
+}
+.my-button.circle .mask {
+  border-radius: 50%;
+}
+.my-button.disabled {
+  opacity: 0.5;
+  cursor: no-drop;
+}
+
+// 按钮大小
+.my-button--large {
+  font-size: 18px;
+  padding: 12px 24px;
+}
+
+.my-button--small {
+  font-size: 14px;
+  padding: 8px 16px;
+}
+.my-button--mini {
+  font-size: 12px;
+  padding: 6px 12px;
+}
+
+// loading
+.my-button-loading {
+  display: inline-block;
+  animation: loading 4s linear infinite;
+}
+@keyframes loading {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.my-button-loading-layer {
+  pointer-events: none;
+  .my-button::before {
+    pointer-events: none;
+    content: '';
+    position: absolute;
+    left: -1px;
+    top: -1px;
+    right: -1px;
+    bottom: -1px;
+    border-radius: inherit;
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+}
+
+
