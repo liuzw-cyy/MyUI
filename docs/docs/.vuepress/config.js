@@ -34,6 +34,7 @@ module.exports = {
           collapsable: false,
           children: [
             'basic/button',
+            'basic/dialog',
           ]
         },
         {
@@ -47,7 +48,7 @@ module.exports = {
           title: 'Form表单组件',
           collapsable: false,
           children: [
-
+            'form/input'
           ]
         },
         {
