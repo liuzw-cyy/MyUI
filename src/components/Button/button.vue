@@ -29,16 +29,15 @@
 </template>
 
 <script>
-
+import { check } from "../../utils/checkone";
 export default {
   name: "my-button",
   props: {
     type: {
       type: String,
       default: "default",
-      validator: function (value) {
-        return (
-          [
+      validator(value) {
+        return check(value, [
             "default",
             "primarywhite",
             "primarygold",
@@ -46,21 +45,20 @@ export default {
             "successgold",
             "dangerwhite",
             "dangergold"
-          ].indexOf(value) !== -1
-        );
-      },
+          ])
+        }
     },
     size: {
       type: String,
       default: "medium",
-      validator: function (value) {
-        return [
+      validator(value) {
+        return check(value, [
           "large",
           "medium",
           "small",
           "mini"
-        ].indexOf(value) !== -1;
-      },
+        ])
+      }
     },
     // 圆角按钮
     round: {
